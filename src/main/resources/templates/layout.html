@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Personal Finance Tracker</title>
+    <link rel="stylesheet" th:href="@{/css/style.css}"/>
+</head>
+<body>
+<div class="container">
+    <nav>
+        <a th:href="@{/incomes}">Incomes</a>
+        <a th:href="@{/expenses}">Expenses</a>
+        <a th:href="@{/chart}">Chart</a>
+    </nav>
+    <div th:fragment="content">
+    </div>
+</div>
+</body>
+</html>
